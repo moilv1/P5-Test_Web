@@ -2,7 +2,7 @@ header{
     background-color:#FFCC99;
     font-weight: bold;
     text-align: center;
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 main {
     background-color: #E6F2FF;
@@ -19,10 +19,11 @@ aside {
 
 section{
     flex: 3;
+    margin: 20px;
 }
 
 footer {
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0);
     border: solid 1px #CCC;
     background-color:#99CC99;
 }

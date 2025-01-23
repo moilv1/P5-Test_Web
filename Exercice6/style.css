@@ -1,7 +1,5 @@
-ul {
-  margin-left: 10px;
-}
 ul li {
-  margin: 10px;
+  padding-left: 10px;
   color: #0000ff;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */

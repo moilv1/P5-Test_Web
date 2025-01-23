@@ -1,10 +1,16 @@
 //votre code ici
 function printNumbers(n) {
-    let result = '';
+    let result = ``;
     for (let i = 1; i <= n; i++) {
-        result += i + (i < n ? ' ' : '');
+        if (i === n) {
+            result+= i;
+            break
+        }
+        result+= i + ' ';
     }
     return result;
 }
 
-console.log(printNumbers(10));
+export default printNumbers;
+
+console.log(printNumbers(5));

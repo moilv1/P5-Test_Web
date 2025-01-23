@@ -1,9 +1,9 @@
 $blue: #0000ff;
 
 ul {
-    margin-left: 10px;
     li{
-        margin: 10px;
+        padding-left: 10px;
         color: $blue;
+        margin-bottom: 15px;
     }
 }
